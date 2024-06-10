@@ -1,0 +1,41 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder config files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore npm packages
+node_modules/
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Ignore coverage results
+coverage/
+
+# Ignore other files
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.gpState
+.vscode/
